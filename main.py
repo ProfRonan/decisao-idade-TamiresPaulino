@@ -2,9 +2,8 @@ numero = int(input('Digite um número: '))
 
 if numero < 0:
     print('impossível!')
-    print('Não precisa se alistar.')
 
-elif numero < 18:
+if numero < 18:
     print('Não precisa se alistar.')
 
 elif 18 < numero < 65:
