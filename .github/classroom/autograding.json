@@ -48,7 +48,17 @@
       "output": "Vá descansar.",
       "comparison": "included",
       "timeout": 1,
-      "points": 20
+      "points": 10
+    },
+    {
+      "name": "150",
+      "setup": "",
+      "run": "python main.py",
+      "input": "150",
+      "output": "Vá descansar.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
     }
   ]
 }
