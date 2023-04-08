@@ -2,6 +2,7 @@ numero = int(input('Digite um número: '))
 
 if numero < 0:
     print('impossível!')
+    #print('não precisa se alistar')
 
 if numero < 18:
     print('Não precisa se alistar.')
@@ -11,6 +12,7 @@ elif 18 < numero < 65:
 
 elif numero > 65:
     print('Vá descansar.')
+    
 else: 
     print('eita!')
 
