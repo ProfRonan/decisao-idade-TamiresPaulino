@@ -1,64 +1,14 @@
 {
   "tests": [
     {
-      "name": "negativo",
+      "name": "Test All",
       "setup": "",
-      "run": "python main.py",
-      "input": "-2",
-      "output": "impossível!",
+      "run": "python -m unittest",
+      "input": "",
+      "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 20
-    },
-    {
-      "name": "menor",
-      "setup": "",
-      "run": "python main.py",
-      "input": "15",
-      "output": "não precisa se alistar.",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 20
-    },
-    {
-      "name": "18",
-      "setup": "",
-      "run": "python main.py",
-      "input": "18",
-      "output": "eita!",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 20
-    },
-    {
-      "name": "65",
-      "setup": "",
-      "run": "python main.py",
-      "input": "65",
-      "output": "eita!",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 20
-    },
-    {
-      "name": "100",
-      "setup": "",
-      "run": "python main.py",
-      "input": "100",
-      "output": "Vá descansar.",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 10
-    },
-    {
-      "name": "150",
-      "setup": "",
-      "run": "python main.py",
-      "input": "150",
-      "output": "Vá descansar.",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 10
+      "points": 100
     }
   ]
 }
